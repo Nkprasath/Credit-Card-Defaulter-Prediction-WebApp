@@ -68,7 +68,5 @@ rf.fit(X_train, y_train)
 pred = rf.predict(df)
 pred_proba =rf.predict_proba(df)
 
-st.write("Accuracy")
+st.write("Prediction")
 st.write(pred)
-
-st.write(y_test)
